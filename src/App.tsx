@@ -1,26 +1,22 @@
+import Icon from '@mui/material/Icon/Icon';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This is a placeholder page! Updates coming soon :)
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Aaron Collins</h1>
+        <ArrowForwardIosIcon className = "big-downward-arrow" style={{ transform: 'rotate(90deg)', width: 60, height: 60}}/>
       </header>
+      <body className="App-body">
+          <p>Paras stufffs</p>
+      </body>
     </div>
   );
 }
 
 export default App;
+
