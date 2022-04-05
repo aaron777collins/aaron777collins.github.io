@@ -5,9 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import NoPage from './NoPage/NoPage';
+import { Helmet } from 'react-helmet';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Helmet>
+      <title>Aaron Collins - Portfolio</title>
+      <meta name="description" content="A small portfolio showcasing Aaron Collins" />
+      <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#282c34" />
+    </Helmet>
     <HashRouter>
       <Routes>
           <Route path="/" element={<App/>}/>
