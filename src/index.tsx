@@ -4,8 +4,16 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import NoPage from './NoPage/NoPage';
+import NoPage from './pages/NoPage/NoPage';
 import { Helmet } from 'react-helmet';
+import { createTheme } from "@mui/material/styles";
+import { ThemeProvider } from "@emotion/react";
+
+const darkTheme = createTheme({
+  palette: {
+    mode: "dark",
+  },
+});
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,14 +22,16 @@ ReactDOM.render(
       <meta name="description" content="A small portfolio showcasing Aaron Collins" />
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#282c34" />
     </Helmet>
+    <ThemeProvider theme={darkTheme}>
     <HashRouter>
       <Routes>
-          <Route path="/" element={<App/>}/>
-          <Route path="/home" element={<App/>}/>
+          <Route path="/" element={<App pageName="Home"/>}/>
+          <Route path="/home" element={<App pageName="Home"/>}/>
           <Route path="*" element={<NoPage/>}/>
           <Route/>
       </Routes>
     </HashRouter>
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
