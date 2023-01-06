@@ -13,11 +13,11 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { AccountBox } from '@mui/icons-material';
-
-const pages = ['Home', 'About', 'Resume'];
+import { Link } from 'react-router-dom';
 
 interface NavbarProps {
   pageName: string;
+  pages: string[];
 }
 
 const Navbar = (props: NavbarProps) => {
@@ -83,9 +83,9 @@ const Navbar = (props: NavbarProps) => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
+              {props.pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Link className='no-underline' to={"/" + page.toLowerCase().replaceAll(" ", "-")}><Typography textAlign="center">{page}</Typography></Link>
                 </MenuItem>
               ))}
             </Menu>
@@ -110,13 +110,13 @@ const Navbar = (props: NavbarProps) => {
             AARON COLLINS
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {props.pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                <Link className='white no-underline' to={"/" + page.toLowerCase().replaceAll(" ", "-")}><Typography textAlign="center">{page}</Typography></Link>
               </Button>
             ))}
           </Box>

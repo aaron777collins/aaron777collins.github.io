@@ -1,0 +1,22 @@
+.about-page {
+    text-align: center;
+  }
+
+.about-header {
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.about-body {
+  margin-top: -30px;
+  text-align: left;
+  padding: 0rem 5rem 0rem 5rem;
+    .align-center {
+      text-align: center;
+    }
+}

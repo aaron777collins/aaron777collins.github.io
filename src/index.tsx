@@ -1,39 +1,62 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.scss';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { HashRouter, Route, Routes } from 'react-router-dom';
-import NoPage from './pages/NoPage/NoPage';
-import { Helmet } from 'react-helmet';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.scss";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { HashRouter, Route, Routes } from "react-router-dom";
+import NoPage from "./pages/NoPage/NoPage";
+import { Helmet } from "react-helmet";
 import { createTheme } from "@mui/material/styles";
 import { ThemeProvider } from "@emotion/react";
+import About from "./pages/About/About";
+import Construction from "./pages/Construction/Construction";
+import { red } from "@mui/material/colors";
+import { DEFAULT_THEME } from "./Themes/Themes";
 
-const darkTheme = createTheme({
-  palette: {
-    mode: "dark",
-  },
-});
+let PAGES_ARR = ["Home", "About", "Resume", "Projects", "Contact"];
 
 ReactDOM.render(
   <React.StrictMode>
     <Helmet>
       <title>Aaron Collins - Portfolio</title>
-      <meta name="description" content="A small portfolio showcasing Aaron Collins" />
-      <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#282c34" />
+      <meta
+        name="description"
+        content="A small portfolio showcasing Aaron Collins"
+      />
+      <meta
+        name="theme-color"
+        media="(prefers-color-scheme: dark)"
+        content="#282c34"
+      />
     </Helmet>
-    <ThemeProvider theme={darkTheme}>
-    <HashRouter>
-      <Routes>
-          <Route path="/" element={<App pageName="Home"/>}/>
-          <Route path="/home" element={<App pageName="Home"/>}/>
-          <Route path="*" element={<NoPage/>}/>
-          <Route/>
-      </Routes>
-    </HashRouter>
+    <ThemeProvider theme={DEFAULT_THEME}>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<App pageName="Home" pages={PAGES_ARR} />} />
+          <Route path={`/home`} element={<App pageName="Home" pages={PAGES_ARR} />} />;
+          <Route path={`/about`} element={<About pages={PAGES_ARR} />} />;
+          <Route
+            path={`/resume`}
+            element={<Construction pages={PAGES_ARR} />}
+          />
+          ;
+          <Route
+            path={`/projects`}
+            element={<Construction pages={PAGES_ARR} />}
+          />
+          ;
+          <Route
+            path={`/contact`}
+            element={<Construction pages={PAGES_ARR} />}
+          />
+          ;
+          <Route path="*" element={<NoPage pages={PAGES_ARR} />} />
+          <Route />
+        </Routes>
+      </HashRouter>
     </ThemeProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
