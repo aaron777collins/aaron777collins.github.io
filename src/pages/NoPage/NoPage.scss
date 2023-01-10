@@ -1,13 +1,15 @@
 .no-page {
-    text-align: center;
+  text-align: center;
+  justify-items: center
   }
 
 .no-page-header {
-    min-height: 95vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+  min-height: 95vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
