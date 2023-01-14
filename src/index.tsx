@@ -56,7 +56,9 @@ ReactDOM.render(
           ;
           <Route
             path={`/contact`}
-            element={<Construction pages={PAGES_ARR} />}
+            element={
+              <Redirect url="https://www.linkedin.com/in/aaron-collins-ab70511b7/" />
+            }
           />
           ;
           <Route path="*" element={<NoPage pages={PAGES_ARR} />} />
