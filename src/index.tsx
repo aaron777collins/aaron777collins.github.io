@@ -12,6 +12,7 @@ import About from "./pages/About/About";
 import Construction from "./pages/Construction/Construction";
 import { red } from "@mui/material/colors";
 import { DEFAULT_THEME } from "./Themes/Themes";
+import Redirect from "./components/Redirect";
 
 let PAGES_ARR = ["Home", "About", "Resume", "Projects", "Contact"];
 
@@ -33,16 +34,24 @@ ReactDOM.render(
       <HashRouter>
         <Routes>
           <Route path="/" element={<App pageName="Home" pages={PAGES_ARR} />} />
-          <Route path={`/home`} element={<App pageName="Home" pages={PAGES_ARR} />} />;
+          <Route
+            path={`/home`}
+            element={<App pageName="Home" pages={PAGES_ARR} />}
+          />
+          ;
           <Route path={`/about`} element={<About pages={PAGES_ARR} />} />;
           <Route
             path={`/resume`}
-            element={<Construction pages={PAGES_ARR} />}
+            element={
+              <Redirect url="https://docs.google.com/document/d/1op2BEdfIQhRNANStFQqwkfgy3Gb24to1nuZ4nRLFEW8/edit?usp=sharing" />
+            }
           />
           ;
           <Route
             path={`/projects`}
-            element={<Construction pages={PAGES_ARR} />}
+            element={
+              <Redirect url="https://github.com/aaron777collins?tab=repositories" />
+            }
           />
           ;
           <Route
