@@ -10,7 +10,7 @@ export default function Contact(props: IContactProps) {
       <Typography variant="h3" sx={{ padding: "10px 0" }}>
         Contact:
       </Typography>
-      <Typography>
+      <Typography variant="body1">
         I'm always looking to expand my network and explore different
         opportunities.
       </Typography>

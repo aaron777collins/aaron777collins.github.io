@@ -13,6 +13,7 @@ import Construction from "./pages/Construction/Construction";
 import { red } from "@mui/material/colors";
 import { DEFAULT_THEME } from "./Themes/Themes";
 import Redirect from "./components/Redirect";
+import ContactPage from "./pages/ContactPage/ContactPage";
 
 let PAGES_ARR = ["Home", "About", "Resume", "Projects", "Contact"];
 
@@ -56,9 +57,7 @@ ReactDOM.render(
           ;
           <Route
             path={`/contact`}
-            element={
-              <Redirect url="https://www.linkedin.com/in/aaron-collins-ab70511b7/" />
-            }
+            element={<ContactPage pages={PAGES_ARR} />}
           />
           ;
           <Route path="*" element={<NoPage pages={PAGES_ARR} />} />
