@@ -12,34 +12,32 @@ export default function Interests (props: IInterestsProps) {
                     Interests:
                   </Typography>
                   <Typography>
-                    I have worked in many roles and explored industries ranging
+                    I worked in many roles and explored industries ranging
                     from health foods to <b>web development</b> and{" "}
                     <b>machine learning</b>. However, here are some small
                     snippets about me:
                   </Typography>
                   <ul>
                     <li>
-                      Making games and innovative tools have always interested
+                      Making games and innovative tools has always interested
                       me. I'm quite creative and excel in leadership and
                       productivity. My father introduced me to programming when
-                      I was 10 and I was hooked ever since.
+                      I was 10, and I've been hooked ever since.
                     </li>
                     <li>
                       While growing up, I used to play many sports including
-                      travel hockey. Before hanging up the skates, I also
-                      coached a bantam house league team to give back to the
-                      community.
+                      travel hockey, soccer, baseball and lacrosse. Before hanging up the skates, I also
+                      coached a bantam house league team. It was very rewarding to give back to the community.
                     </li>
                   </ul>
                   <Typography>
-                    Currently, I am an undergraduate student at the University
+                    Currently, I'm an undergraduate student at the University
                     of Windsor, looking to become a full-stack developer at a
                     big tech company.
                     <br />
                     <br />
-                    While at the university, I am researching
-                    connected/autonomous driving using machine learning at the
-                    University of Windsor. Additionally, I'm currently a
+                    While at the university, I'm researching
+                    connected/autonomous driving using machine learning and managing/teaching some other research assistants. I'm also a
                     teaching assistant for an introductory python course.
                   </Typography>
                 </PaddedCard>
