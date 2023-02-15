@@ -27,7 +27,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run predeploy-build && npm run predeploy-with-cname",
+    "predeploy-build": "npm run build",
+    "predeploy-with-cname": "echo www.aaroncollins.info > build/CNAME",
     "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
