@@ -29,6 +29,13 @@ export default function Contact(props: IContactProps) {
         >
           LinkedIn
         </Button>
+        <Button
+          color="secondary"
+          variant="contained"
+          href="https://www.instagram.com/aaron.collins7/"
+        >
+          Instagram
+        </Button>
       </CardActions>
     </PaddedCard>
   );
