@@ -47,16 +47,18 @@ export default function About(props: IAboutProps) {
               {/* create grid layout using mui cards */}
               <Grid container spacing={3}>
                 {/* left column */}
-                <Grid container item xs={4} spacing={3}>
+                <Grid container item xs={7} spacing={3}>
                   <Grid item xs={12}>
                     <Roles />
                   </Grid>
                   <Grid item xs={12}>
-                    <Contact />
+                    <Interests />
                   </Grid>
                 </Grid>
-                <Grid item xs={8}>
-                  <Interests />
+                <Grid container item xs={5} spacing={3}>
+                  <Grid item xs={12}>
+                    <Contact />
+                  </Grid>
                 </Grid>
               </Grid>
             </ThemeProvider>
@@ -80,13 +82,13 @@ export default function About(props: IAboutProps) {
               {/* create grid layout using mui cards */}
               <Grid container spacing={3}>
                 <Grid item xs={12}>
+                  <Contact />
+                </Grid>
+                <Grid item xs={12}>
                   <Roles />
                 </Grid>
                 <Grid item xs={12}>
                   <Interests />
-                </Grid>
-                <Grid item xs={12}>
-                  <Contact />
                 </Grid>
               </Grid>
             </ThemeProvider>
