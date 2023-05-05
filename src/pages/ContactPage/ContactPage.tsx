@@ -34,13 +34,8 @@ export default function ContactPage(props: IContactPageProps) {
               >
                 <img
                   src="PhotoOfMeSquare.jpg"
-                  style={{
-                    maxWidth: "250px",
-                    height: "auto",
-                    borderRadius: "50%",
-                    minWidth: "200px",
-                    minHeight: "200px",
-                  }}
+                  className="contactImage"
+                  alt="Aaron Collins"
                 />
               </Grid>
               <Grid item xs={12} sm={7}>

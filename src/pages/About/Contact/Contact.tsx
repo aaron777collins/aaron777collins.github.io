@@ -1,7 +1,5 @@
 import {
   Box,
-  Button,
-  CardActions,
   Divider,
   Grid,
   IconButton,
@@ -13,6 +11,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import PhoneIcon from "@mui/icons-material/Phone";
+import './Contact.scss'
 
 export interface IContactProps {}
 
@@ -29,14 +28,9 @@ export default function Contact(props: IContactProps) {
           sx={{ display: "flex", justifyContent: "center" }}
         >
           <img
+            className="contactImage"
             src="PhotoOfMeSquare.jpg"
-            style={{
-              maxWidth: "250px",
-              height: "auto",
-              borderRadius: "50%",
-              minWidth: "200px",
-              minHeight: "200px",
-            }}
+            alt="Aaron Collins"
           />
         </Grid>
         <Grid item xs={12}>
