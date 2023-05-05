@@ -35,7 +35,7 @@ export default function ContactPage(props: IContactPageProps) {
                 <img
                   src="PhotoOfMeSquare.jpg"
                   style={{
-                    maxWidth: "100%",
+                    maxWidth: "250px",
                     height: "auto",
                     borderRadius: "50%",
                     minWidth: "200px",
