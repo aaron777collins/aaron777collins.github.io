@@ -33,7 +33,7 @@ export default function Interests (props: IInterestsProps) {
         <li>
           My interest in sports has played a significant role in my life, allowing me to develop teamwork, discipline,
            and leadership skills. I have been actively involved in travel hockey, soccer, baseball, and lacrosse, and
-            have even had the rewarding experience of coaching a bantam house league hockey team.
+            I have even had the rewarding experience of coaching a Bantam house league hockey team.
         </li>
       </ul>
       <Typography>
