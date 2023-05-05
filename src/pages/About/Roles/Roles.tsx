@@ -8,7 +8,7 @@ export interface IRolesProps {}
 export default function Roles(props: IRolesProps) {
   return (
     <PaddedCard>
-      <Typography variant="h2">Roles:</Typography>
+      <Typography variant="h2" sx={{fontSize: "3em", textAlign: "center"}}>Roles</Typography>
       <ul className="roles-list">
         <li>Manager</li>
         <li>Researcher</li>

@@ -47,7 +47,7 @@ export default function About(props: IAboutProps) {
               {/* create grid layout using mui cards */}
               <Grid container spacing={3}>
                 {/* left column */}
-                <Grid container item xs={3} spacing={3}>
+                <Grid container item xs={4} spacing={3}>
                   <Grid item xs={12}>
                     <Roles />
                   </Grid>
@@ -55,7 +55,7 @@ export default function About(props: IAboutProps) {
                     <Contact />
                   </Grid>
                 </Grid>
-                <Grid item xs={9}>
+                <Grid item xs={8}>
                   <Interests />
                 </Grid>
               </Grid>

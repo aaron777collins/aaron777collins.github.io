@@ -8,8 +8,8 @@ export interface IInterestsProps {
 export default function Interests (props: IInterestsProps) {
   return (
     <PaddedCard>
-      <Typography variant="h2" sx={{ padding: "20px 0" }}>
-        About Me:
+      <Typography variant="h2" sx={{ padding: "20px 0", fontSize: "3rem", textAlign: "center"}}>
+        About Me
       </Typography>
       <Typography>
         As a recent graduate in Computer Science from the University of Windsor, I have developed a strong foundation
