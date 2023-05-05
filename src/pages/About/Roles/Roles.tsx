@@ -13,7 +13,6 @@ export default function Roles(props: IRolesProps) {
         <li>Manager</li>
         <li>Researcher</li>
         <li>Teaching Assistant</li>
-        <li>Student</li>
         <li>Full-Stack Software Developer</li>
       </ul>
     </PaddedCard>

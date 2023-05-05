@@ -1,5 +1,10 @@
 .centerItems {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; // This will ensure it takes up at least the full height of the viewport
+}
+
+.breakWordWrap {
+  word-break: break-word;
 }
