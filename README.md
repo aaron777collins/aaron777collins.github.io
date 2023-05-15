@@ -1,6 +1,7 @@
 # Aaron's Portfolio Website
 
-This project serves as a website for my portfolio. It was built using create-react-app and Github Pages
+This project serves as a website for my portfolio. It was built using create-react-app and Github Pages.
+It also contains a [microsite](https://www.aaroncollins.info/projects/) for projects that I have worked on.
 
 ## Development
 
