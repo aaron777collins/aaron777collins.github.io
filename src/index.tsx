@@ -51,7 +51,7 @@ ReactDOM.render(
           <Route
             path={`/projects`}
             element={
-              <Redirect url="https://github.com/aaron777collins?tab=repositories" />
+              <Redirect url="https://www.aaroncollins.info/projects/" />
             }
           />
           ;
