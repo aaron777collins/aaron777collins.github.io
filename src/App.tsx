@@ -21,7 +21,7 @@ interface AppProps {
 function App(props: AppProps) {
   const PurpleButton = styled(Button)(({ theme }) => ({
     fontSize: "40px",
-    margin: "2em 1em 0 1em",
+    margin: "1em 1em 0 1em",
   }));
 
   return (
@@ -49,6 +49,14 @@ function App(props: AppProps) {
                   to="/resume"
                 >
                   Resume
+                </Link>
+              </PurpleButton>
+              <PurpleButton color="secondary" variant="contained">
+                <Link
+                  style={{ color: "inherit", textDecoration: "None" }}
+                  to="/projects"
+                >
+                  Projects
                 </Link>
               </PurpleButton>
           </Box>
