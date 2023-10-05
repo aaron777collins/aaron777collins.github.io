@@ -37,9 +37,9 @@ export default function Interests (props: IInterestsProps) {
         </li>
       </ul>
       <Typography>
-        With my recent graduation, I am now eager to apply my skills and knowledge as a full-stack developer at a leading
-         tech company. I am excited to take on new challenges and contribute to innovative projects that have a
-          meaningful impact on the world of technology.
+        I'm a highly motivated individual who is always looking for new opportunities to learn and grow. I am currently
+        employed at Criteo, a Commerce Media Platform, as a Software Development Engineer. At Criteo I'm on the Onsite
+        Display Ads team, using technologies such as Angular and .Net to create next level advertising solutions.
       </Typography>
     </PaddedCard>
   );
