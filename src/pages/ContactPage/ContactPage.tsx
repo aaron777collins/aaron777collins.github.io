@@ -107,25 +107,6 @@ export default function ContactPage(props: IContactPageProps) {
                       aaron.collins7
                     </Typography>
                   </Box>
-                  <Divider />
-                  <Box
-                    sx={{
-                      display: "flex",
-                      alignItems: "center",
-                      marginTop: "20px",
-                    }}
-                  >
-                    <IconButton color="secondary" href="tel:+15175150233">
-                      <PhoneIcon />
-                    </IconButton>
-                    <Typography
-                      variant="h6"
-                      sx={{ marginLeft: "10px" }}
-                      className="breakWordWrap"
-                    >
-                      +1 (517) 515-0233
-                    </Typography>
-                  </Box>
                 </Box>
               </Grid>
             </Grid>
