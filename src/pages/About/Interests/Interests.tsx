@@ -38,8 +38,8 @@ export default function Interests (props: IInterestsProps) {
       </ul>
       <Typography>
         I'm a highly motivated individual who is always looking for new opportunities to learn and grow. I am currently
-        employed at Criteo, a Commerce Media Platform, as a Software Development Engineer. At Criteo I'm on the Onsite
-        Display Ads team, using technologies such as Angular and .Net to create next level advertising solutions.
+        employed at Criteo, a Commerce Media Platform, as a Software Development Engineer II (previously SDE I). I'm on the Onsite
+        Forecasting and Booking team, using Angular and .NET (C#) to drive next level advertising solutions.
       </Typography>
     </PaddedCard>
   );
