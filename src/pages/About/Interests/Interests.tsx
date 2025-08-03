@@ -12,7 +12,7 @@ export default function Interests (props: IInterestsProps) {
         About Me
       </Typography>
       <Typography>
-        As a recent graduate in Computer Science from the University of Windsor, I have developed a strong foundation
+        As graduate in Computer Science from the University of Windsor, I have developed a strong foundation
          in programming, software development, and data science. Throughout my academic and professional journey, I have
           explored various roles and industries, which have allowed me to gain valuable experience and skills. Here's a
            little more about me:
