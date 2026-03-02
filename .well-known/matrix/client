@@ -1,0 +1,17 @@
+{
+    "m.homeserver": {
+        "base_url": "https://matrix3.aaroncollins.info"
+    },
+    "org.matrix.msc3401.call.focus": [
+        {
+            "type": "livekit",
+            "livekit_service_url": "https://matrix3.aaroncollins.info/livekit-jwt-service"
+        }
+    ],
+    "org.matrix.msc4143.rtc_foci": [
+        {
+            "type": "livekit",
+            "livekit_service_url": "https://matrix3.aaroncollins.info/livekit-jwt-service"
+        }
+    ]
+}
