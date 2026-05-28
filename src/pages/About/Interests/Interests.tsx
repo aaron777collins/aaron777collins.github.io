@@ -37,9 +37,20 @@ export default function Interests (props: IInterestsProps) {
         </li>
       </ul>
       <Typography>
-        I'm a highly motivated individual who is always looking for new opportunities to learn and grow. I am currently
-        employed at Criteo, a Commerce Media Platform, as a Software Development Engineer II (previously SDE I). I'm on the Onsite
-        Forecasting and Booking team, using Angular and .NET (C#) to drive next level advertising solutions.
+        I'm a highly motivated individual who is always looking for new opportunities to learn and grow. I'm currently
+        a <strong>Senior Software Development Engineer</strong> at Criteo (Ann Arbor, MI), working in Retail Media on the
+        Onsite Ads Activation team &mdash; driving a major re-architecture of ad approval and delivery pipelines using
+        C#/.NET 10 and Angular. I was also selected by senior leadership as Criteo's <strong>AI Champion</strong>,
+        responsible for driving AI adoption, onboarding engineers to agentic AI workflows, and tracking cross-org AI
+        initiatives.
+      </Typography>
+      <Typography sx={{ marginTop: "1em" }}>
+        Outside of my day job, I build <strong>agentic AI systems</strong>: <em>ForgeBot</em> and
+        <em> Claude Code Helper</em> (Slack-integrated AI coding agents at Criteo), <em>PortableRalph</em> (an
+        autonomous AI dev loop that runs in any repo, cross-platform, 13+ GitHub stars), and <em>SOPHIE</em>, a
+        personal AI life assistant accessible via Slack, Discord, and voice calls. I also maintain the
+        <em> Minecraft Datapack Language</em> compiler (published on PyPI with a VS Code extension) and
+        <em> ZeroTier-GUI-Arch</em> (a popular Steam Deck networking client, 41+ stars).
       </Typography>
     </PaddedCard>
   );

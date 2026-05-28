@@ -44,7 +44,7 @@ ReactDOM.render(
           <Route
             path={`/resume`}
             element={
-              <Redirect url="https://docs.google.com/document/d/1op2BEdfIQhRNANStFQqwkfgy3Gb24to1nuZ4nRLFEW8/edit?usp=sharing" />
+              <Redirect url="https://www.aaroncollins.info/resume/" />
             }
           />
           ;
