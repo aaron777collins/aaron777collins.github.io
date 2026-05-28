@@ -48,11 +48,11 @@ export default function Interests (props: IInterestsProps) {
         I build <strong>agentic AI systems</strong> across both work and free time. At Criteo I use dedicated 10% time
         (company-sanctioned hours set aside for self-directed engineering projects) to build <em>ForgeBot</em>
         and <em>Claude Code Helper</em> &mdash; Slack-integrated AI coding agents that
-        engineers interact with directly in Slack channels to fix bugs, add features, or summarize topics. In my free
-        time I work on <em>SOPHIE</em>, my personal AI life assistant accessible via Slack, Discord, and voice calls;
-        <em> PortableRalph</em>, an autonomous AI dev loop that runs in any repo (cross-platform, 13+ GitHub stars);
-        and the <em>Minecraft Datapack Language</em> compiler (published on PyPI with a VS Code extension). I also
-        maintain <em>ZeroTier-GUI-Arch</em>, a Steam Deck networking client with 41+ GitHub stars.
+        engineers interact with directly in Slack channels to fix bugs, add features, or summarize topics. In my own
+        time I'm currently building <em>SOPHIE</em>, my personal AI life assistant accessible via Slack, Discord, and
+        voice calls. I've also worked on <em>PortableRalph</em>, an autonomous AI dev loop that runs in any repo
+        (cross-platform, 13+ GitHub stars); the <em>Minecraft Datapack Language</em> compiler (published on PyPI with
+        a VS Code extension); and <em>ZeroTier-GUI-Arch</em>, a Steam Deck networking client with 41+ GitHub stars.
       </Typography>
     </PaddedCard>
   );
