@@ -45,12 +45,13 @@ export default function Interests (props: IInterestsProps) {
         initiatives.
       </Typography>
       <Typography sx={{ marginTop: "1em" }}>
-        Outside of my day job, I build <strong>agentic AI systems</strong>: <em>ForgeBot</em> and
-        <em> Claude Code Helper</em> (Slack-integrated AI coding agents at Criteo), <em>PortableRalph</em> (an
-        autonomous AI dev loop that runs in any repo, cross-platform, 13+ GitHub stars), and <em>SOPHIE</em>, a
-        personal AI life assistant accessible via Slack, Discord, and voice calls. I also maintain the
-        <em> Minecraft Datapack Language</em> compiler (published on PyPI with a VS Code extension) and
-        <em> ZeroTier-GUI-Arch</em> (a popular Steam Deck networking client, 41+ stars).
+        I build <strong>agentic AI systems</strong> across both work and free time. At Criteo I use dedicated 10% time
+        to build <em>ForgeBot</em> and <em>Claude Code Helper</em> &mdash; Slack-integrated AI coding agents that
+        engineers interact with directly in Slack channels to fix bugs, add features, or summarize topics. In my free
+        time I work on <em>SOPHIE</em>, my personal AI life assistant accessible via Slack, Discord, and voice calls;
+        <em> PortableRalph</em>, an autonomous AI dev loop that runs in any repo (cross-platform, 13+ GitHub stars);
+        and the <em>Minecraft Datapack Language</em> compiler (published on PyPI with a VS Code extension). I also
+        maintain <em>ZeroTier-GUI-Arch</em>, a Steam Deck networking client with 41+ GitHub stars.
       </Typography>
     </PaddedCard>
   );
